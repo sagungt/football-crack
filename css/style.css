@@ -1,0 +1,141 @@
+nav {
+    background-color: #112d4e;
+}
+
+body {
+    background-color: #dbe2ef;
+}
+
+body, input, button {
+    font-family: 'Abel', sans-serif;
+    font-size: larger;
+}
+
+.navbar-fixed {
+    z-index: 999;
+}
+
+.sidenav {
+    background-color: #f9f7f7;
+}
+
+.my-color {
+    background-color: #3f72af;
+}
+
+#navbg {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#logo {
+    margin: 0 auto;
+}
+
+.tabs .tab a {
+    color: rgba(63, 114, 175, 0.7);
+}
+
+.tabs .tab a:hover {
+    color:#3f72af;
+}
+
+.tabs .tab a:focus.active {
+    color:#3f72af;
+    background-color: rgba(63, 114, 175, 0.2);
+}
+
+.tabs .indicator {
+    background-color:#112d4e;
+}
+
+label {
+    font-size: 16px !important;
+}
+
+span {
+    color: black !important;
+}
+
+.card-image img {
+    width: 180px !important;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.rounded {
+    border-radius: 5px;
+}
+
+.card-action a {
+    color: #112d4e !important;
+}
+
+tbody h6 {
+    margin: 0 auto;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+#overlay { 
+    height: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.5);
+    overflow-x: hidden;
+    transition: 0.3s;
+}
+
+.overlay-content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    top: 35%;
+    margin-top: 30px;
+}
+
+.list-item {
+    padding: 20px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.list-item:hover {
+    background-color: #dbe2ef;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .card-image img {
+        width: 100px !important;
+        margin: 0 20%;
+    }
+
+    #highlightContent .tabs-content {
+        height: 700px !important;
+    }
+}

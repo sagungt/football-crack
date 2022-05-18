@@ -1,0 +1,49 @@
+<h3>Search Custom Matches</h3>
+<br>
+<div class="row">
+    <div class="input-field col m3 s12">
+        <select multiple id="competitionsSelect">
+            <option value="" disabled>Choose your option</option>
+            <option value="2032" selected>Série A</option>
+            <option value="2016" selected>Championship</option>
+            <option value="2021" selected>Premiere League</option>
+            <option value="2001" selected>UEFA Champions League</option>
+            <option value="2018" selected>European Championship</option>
+            <option value="2015" selected>Ligue 1</option>
+            <option value="2002" selected>Bundesliga</option>
+            <option value="2019" selected>Serie A</option>
+            <option value="2003" selected>Eredivisie</option>
+            <option value="2017" selected>Primeira Liga</option>
+            <option value="2014" selected>Primera Division</option>
+            <option value="2000" selected>FIFA World Cup</option>
+        </select>
+        <label>Select Competitions</label>
+    </div>
+    <div class="input-field col m3 s12">
+        <select id="statusSelect">
+            <option value="" selected>None</option>
+            <option value="SCHEDULED">Scheduled</option>
+            <option value="LIVE">Live</option>
+            <option value="IN_PLAY">In Play</option>
+            <option value="PAUSED">Paused</option>
+            <option value="FINISHED">Finished</option>
+            <option value="POSTPONED">Postponed</option>
+            <option value="SUSPENDED">Suspended</option>
+            <option value="CANCELED">Canceled</option>
+        </select>
+        <label>Select status of a match</label>
+    </div>
+    <div class="input-field col m2 s12">
+        <input id="startDate" type="text" class="datepicker" required>
+        <label for="startDate">Start Date</label>
+    </div>
+    <div class="input-field col m2 s12">
+        <input id="endDate" type="text" class="datepicker">
+        <label for="endDate">End Date</label>
+    </div>
+    <div class="input-field col m2 s12">
+        <button id="search" class="btn-large right my-color">Search</button>
+    </div>
+</div>
+
+<div class="content"></div>

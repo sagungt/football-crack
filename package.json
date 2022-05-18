@@ -1,0 +1,29 @@
+{
+  "name": "football-crack",
+  "version": "1.0.0",
+  "description": "Info around football.",
+  "main": "js/index.js",
+  "scripts": {
+    "start-dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "Sri Agung Tirtayasa",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.2.1",
+    "copy-webpack-plugin": "^6.3.1",
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.4.0",
+    "webpack-pwa-manifest": "^4.3.0"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2",
+    "web-push": "^3.4.4"
+  }
+}
